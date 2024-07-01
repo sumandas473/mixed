@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className="flex h-12 w-full text-white select-none fixed">
+    <div className="flex h-12 w-full text-white select-none fixed ">
       <div className="w-2/3 h-full flex items-center gap-2">
         <h1 className="ml-6 font-semibold text-lg">SUMAN</h1>
         <div className="w-[5%] h-[50%] bg-slate-50 rounded-xl overflow-hidden">
@@ -18,7 +18,7 @@ function Navbar() {
       </div>
       <div className="w-1/3 h-full flex items-center justify-center capitalize font-light ">
         <Link to='/home'>
-        <h1 className="px-6 py-1 rounded-md hover:bg-[#7d56d8] duration-150 cursor-pointer">
+        <h1 className="px-6 py-1 rounded-md hover:bg-[#7d56d8] duration-150 cursor-pointer ">
           home
         </h1>
         </Link>
